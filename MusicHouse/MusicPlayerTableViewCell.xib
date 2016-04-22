@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="43" id="KGk-i7-Jjw" customClass="MusicPlayerTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ss-oa-f7Y" userLabel="play">
+                        <rect key="frame" x="220" y="4" width="46" height="35.5"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="46" id="5h4-GE-Q2i"/>
+                            <constraint firstAttribute="height" constant="35.5" id="Ydx-fk-n8L"/>
+                        </constraints>
+                        <state key="normal" title="play"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSj-jB-vst" userLabel="list">
+                        <rect key="frame" x="270" y="4" width="46" height="35.5"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35.5" id="0Bc-iy-H3o"/>
+                            <constraint firstAttribute="width" constant="46" id="0QM-uT-Yf4"/>
+                        </constraints>
+                        <state key="normal" title="list"/>
+                    </button>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zZP-UV-KFh">
+                        <rect key="frame" x="4" y="4" width="212" height="35.5"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35.5" id="zS7-MB-yJc"/>
+                        </constraints>
+                    </scrollView>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="BSj-jB-vst" secondAttribute="bottom" constant="4" id="2Th-06-B06"/>
+                    <constraint firstItem="8ss-oa-f7Y" firstAttribute="leading" secondItem="zZP-UV-KFh" secondAttribute="trailing" constant="4" id="4db-Pb-t2U"/>
+                    <constraint firstItem="8ss-oa-f7Y" firstAttribute="leading" secondItem="zZP-UV-KFh" secondAttribute="trailing" constant="4" id="6ea-o2-5ek"/>
+                    <constraint firstItem="zZP-UV-KFh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="7il-EX-A5e"/>
+                    <constraint firstItem="BSj-jB-vst" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="DNq-DM-nNd"/>
+                    <constraint firstItem="8ss-oa-f7Y" firstAttribute="leading" secondItem="zZP-UV-KFh" secondAttribute="trailing" constant="4" id="KC4-FJ-vpu"/>
+                    <constraint firstItem="8ss-oa-f7Y" firstAttribute="leading" secondItem="zZP-UV-KFh" secondAttribute="trailing" constant="4" id="OUI-Ex-9ug"/>
+                    <constraint firstItem="8ss-oa-f7Y" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="czZ-1d-kIF"/>
+                    <constraint firstItem="BSj-jB-vst" firstAttribute="leading" secondItem="8ss-oa-f7Y" secondAttribute="trailing" constant="4" id="d0g-wG-n6b"/>
+                    <constraint firstAttribute="bottom" secondItem="zZP-UV-KFh" secondAttribute="bottom" constant="4" id="e6E-8N-PV2"/>
+                    <constraint firstAttribute="bottom" secondItem="8ss-oa-f7Y" secondAttribute="bottom" constant="4" id="inL-02-QdA"/>
+                    <constraint firstAttribute="bottom" secondItem="zZP-UV-KFh" secondAttribute="bottom" constant="4" id="kYg-nA-M12"/>
+                    <constraint firstItem="BSj-jB-vst" firstAttribute="leading" secondItem="8ss-oa-f7Y" secondAttribute="trailing" constant="4" id="oHR-Cn-0K7"/>
+                    <constraint firstAttribute="trailing" secondItem="BSj-jB-vst" secondAttribute="trailing" constant="4" id="oet-47-zgF"/>
+                    <constraint firstItem="zZP-UV-KFh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="pqQ-6D-HoA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <point key="canvasLocation" x="212" y="389"/>
+        </tableViewCell>
+    </objects>
+</document>

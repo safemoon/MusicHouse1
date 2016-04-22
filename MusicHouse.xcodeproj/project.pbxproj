@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD19F97C1CAF4DB40028C257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD19F97B1CAF4DB40028C257 /* Assets.xcassets */; };
+		DD19F9821CAF66640028C257 /* HomeTopUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD19F9811CAF66640028C257 /* HomeTopUIView.m */; };
+		DD19F9F71CAFFA440028C257 /* TLNavLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD19F9F61CAFFA440028C257 /* TLNavLeftView.m */; };
+		DD19F9F91CAFFA920028C257 /* TLNavLeftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD19F9F81CAFFA920028C257 /* TLNavLeftView.xib */; };
 		DD4188041CAA96F600348EAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4188031CAA96F600348EAA /* main.m */; };
 		DD4188071CAA96F600348EAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4188061CAA96F600348EAA /* AppDelegate.m */; };
-		DD41880A1CAA96F600348EAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4188091CAA96F600348EAA /* ViewController.m */; };
-		DD41880D1CAA96F600348EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD41880B1CAA96F600348EAA /* Main.storyboard */; };
-		DD41880F1CAA96F600348EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD41880E1CAA96F600348EAA /* Assets.xcassets */; };
 		DD4188121CAA96F600348EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4188101CAA96F600348EAA /* LaunchScreen.storyboard */; };
 		DD41881D1CAA96F600348EAA /* MusicHouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD41881C1CAA96F600348EAA /* MusicHouseTests.m */; };
 		DD4188281CAA96F600348EAA /* MusicHouseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4188271CAA96F600348EAA /* MusicHouseUITests.m */; };
+		DD50B42C1CAEB45E00A469B4 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD50B42A1CAEB45E00A469B4 /* MyViewController.m */; };
+		DD50B42D1CAEB45E00A469B4 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD50B42B1CAEB45E00A469B4 /* MyViewController.xib */; };
+		DD50B4311CAEB47B00A469B4 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD50B42F1CAEB47B00A469B4 /* DiscoverViewController.m */; };
+		DD50B4321CAEB47B00A469B4 /* DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD50B4301CAEB47B00A469B4 /* DiscoverViewController.xib */; };
+		DD50B4361CAEB7AE00A469B4 /* MusicLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD50B4341CAEB7AE00A469B4 /* MusicLibraryViewController.m */; };
+		DD50B4371CAEB7AE00A469B4 /* MusicLibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD50B4351CAEB7AE00A469B4 /* MusicLibraryViewController.xib */; };
+		DDC9590F1CAE53F800A0B82D /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC9590E1CAE53F800A0B82D /* WelcomeViewController.m */; };
+		DDC959131CAE551C00A0B82D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC959111CAE551C00A0B82D /* MainViewController.m */; };
+		DDC959141CAE551C00A0B82D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDC959121CAE551C00A0B82D /* MainViewController.xib */; };
+		DDC959331CAE73C000A0B82D /* MusicPlayerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC959321CAE73C000A0B82D /* MusicPlayerTableViewCell.m */; };
+		DDC959351CAE73F200A0B82D /* MusicPlayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDC959341CAE73F200A0B82D /* MusicPlayerTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD19F97B1CAF4DB40028C257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD19F9801CAF66640028C257 /* HomeTopUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTopUIView.h; sourceTree = "<group>"; };
+		DD19F9811CAF66640028C257 /* HomeTopUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTopUIView.m; sourceTree = "<group>"; };
+		DD19F9F51CAFFA440028C257 /* TLNavLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLNavLeftView.h; sourceTree = "<group>"; };
+		DD19F9F61CAFFA440028C257 /* TLNavLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLNavLeftView.m; sourceTree = "<group>"; };
+		DD19F9F81CAFFA920028C257 /* TLNavLeftView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLNavLeftView.xib; sourceTree = "<group>"; };
 		DD4187FF1CAA96F600348EAA /* MusicHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4188031CAA96F600348EAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD4188051CAA96F600348EAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD4188061CAA96F600348EAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DD4188081CAA96F600348EAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DD4188091CAA96F600348EAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DD41880C1CAA96F600348EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DD41880E1CAA96F600348EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD4188111CAA96F600348EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD4188131CAA96F600348EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD4188181CAA96F600348EAA /* MusicHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicHouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +65,23 @@
 		DD4188231CAA96F600348EAA /* MusicHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4188271CAA96F600348EAA /* MusicHouseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicHouseUITests.m; sourceTree = "<group>"; };
 		DD4188291CAA96F600348EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD50B4291CAEB45E00A469B4 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		DD50B42A1CAEB45E00A469B4 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		DD50B42B1CAEB45E00A469B4 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		DD50B42E1CAEB47B00A469B4 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		DD50B42F1CAEB47B00A469B4 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		DD50B4301CAEB47B00A469B4 /* DiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverViewController.xib; sourceTree = "<group>"; };
+		DD50B4331CAEB7AE00A469B4 /* MusicLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibraryViewController.h; sourceTree = "<group>"; };
+		DD50B4341CAEB7AE00A469B4 /* MusicLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibraryViewController.m; sourceTree = "<group>"; };
+		DD50B4351CAEB7AE00A469B4 /* MusicLibraryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicLibraryViewController.xib; sourceTree = "<group>"; };
+		DDC9590D1CAE53F800A0B82D /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		DDC9590E1CAE53F800A0B82D /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		DDC959101CAE551C00A0B82D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DDC959111CAE551C00A0B82D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DDC959121CAE551C00A0B82D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		DDC959311CAE73C000A0B82D /* MusicPlayerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerTableViewCell.h; sourceTree = "<group>"; };
+		DDC959321CAE73C000A0B82D /* MusicPlayerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerTableViewCell.m; sourceTree = "<group>"; };
+		DDC959341CAE73F200A0B82D /* MusicPlayerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicPlayerTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +112,7 @@
 		DD4187F61CAA96F600348EAA = {
 			isa = PBXGroup;
 			children = (
+				DD19F97B1CAF4DB40028C257 /* Assets.xcassets */,
 				DD4188011CAA96F600348EAA /* MusicHouse */,
 				DD41881B1CAA96F600348EAA /* MusicHouseTests */,
 				DD4188261CAA96F600348EAA /* MusicHouseUITests */,
@@ -103,10 +135,9 @@
 			children = (
 				DD4188051CAA96F600348EAA /* AppDelegate.h */,
 				DD4188061CAA96F600348EAA /* AppDelegate.m */,
-				DD4188081CAA96F600348EAA /* ViewController.h */,
-				DD4188091CAA96F600348EAA /* ViewController.m */,
-				DD41880B1CAA96F600348EAA /* Main.storyboard */,
-				DD41880E1CAA96F600348EAA /* Assets.xcassets */,
+				DDC9590D1CAE53F800A0B82D /* WelcomeViewController.h */,
+				DDC9590E1CAE53F800A0B82D /* WelcomeViewController.m */,
+				DDC959151CAE5A1900A0B82D /* MainView */,
 				DD4188101CAA96F600348EAA /* LaunchScreen.storyboard */,
 				DD4188131CAA96F600348EAA /* Info.plist */,
 				DD4188021CAA96F600348EAA /* Supporting Files */,
@@ -138,6 +169,137 @@
 				DD4188291CAA96F600348EAA /* Info.plist */,
 			);
 			path = MusicHouseUITests;
+			sourceTree = "<group>";
+		};
+		DD50B4381CAED3BB00A469B4 /* HomeTopVC */ = {
+			isa = PBXGroup;
+			children = (
+				DD19F9801CAF66640028C257 /* HomeTopUIView.h */,
+				DD19F9811CAF66640028C257 /* HomeTopUIView.m */,
+			);
+			name = HomeTopVC;
+			sourceTree = "<group>";
+		};
+		DDC959151CAE5A1900A0B82D /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				DD50B4381CAED3BB00A469B4 /* HomeTopVC */,
+				DDC959101CAE551C00A0B82D /* MainViewController.h */,
+				DDC959111CAE551C00A0B82D /* MainViewController.m */,
+				DDC959121CAE551C00A0B82D /* MainViewController.xib */,
+				DDC959181CAE695B00A0B82D /* My */,
+				DDC959191CAE697700A0B82D /* MusicLibrary */,
+				DDC9591A1CAE698500A0B82D /* Discover */,
+				DDC959171CAE690500A0B82D /* MusicPlayerView */,
+				DD19F9F51CAFFA440028C257 /* TLNavLeftView.h */,
+				DD19F9F61CAFFA440028C257 /* TLNavLeftView.m */,
+				DD19F9F81CAFFA920028C257 /* TLNavLeftView.xib */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		DDC959171CAE690500A0B82D /* MusicPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				DDC959221CAE6C5D00A0B82D /* Model */,
+				DDC959201CAE6B0F00A0B82D /* View */,
+				DDC959211CAE6C5200A0B82D /* Controller */,
+			);
+			name = MusicPlayerView;
+			sourceTree = "<group>";
+		};
+		DDC959181CAE695B00A0B82D /* My */ = {
+			isa = PBXGroup;
+			children = (
+				DD50B4291CAEB45E00A469B4 /* MyViewController.h */,
+				DD50B42A1CAEB45E00A469B4 /* MyViewController.m */,
+				DD50B42B1CAEB45E00A469B4 /* MyViewController.xib */,
+			);
+			name = My;
+			sourceTree = "<group>";
+		};
+		DDC959191CAE697700A0B82D /* MusicLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9591F1CAE69EC00A0B82D /* 1Selected */,
+				DDC9591E1CAE69E400A0B82D /* 2MusicList */,
+				DDC9591D1CAE69E100A0B82D /* 3RankList */,
+				DDC9591C1CAE69DA00A0B82D /* 4Artist */,
+				DDC9591B1CAE69D500A0B82D /* 5Radio */,
+				DD50B4331CAEB7AE00A469B4 /* MusicLibraryViewController.h */,
+				DD50B4341CAEB7AE00A469B4 /* MusicLibraryViewController.m */,
+				DD50B4351CAEB7AE00A469B4 /* MusicLibraryViewController.xib */,
+			);
+			name = MusicLibrary;
+			sourceTree = "<group>";
+		};
+		DDC9591A1CAE698500A0B82D /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				DD50B42E1CAEB47B00A469B4 /* DiscoverViewController.h */,
+				DD50B42F1CAEB47B00A469B4 /* DiscoverViewController.m */,
+				DD50B4301CAEB47B00A469B4 /* DiscoverViewController.xib */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		DDC9591B1CAE69D500A0B82D /* 5Radio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 5Radio;
+			sourceTree = "<group>";
+		};
+		DDC9591C1CAE69DA00A0B82D /* 4Artist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 4Artist;
+			sourceTree = "<group>";
+		};
+		DDC9591D1CAE69E100A0B82D /* 3RankList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 3RankList;
+			sourceTree = "<group>";
+		};
+		DDC9591E1CAE69E400A0B82D /* 2MusicList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 2MusicList;
+			sourceTree = "<group>";
+		};
+		DDC9591F1CAE69EC00A0B82D /* 1Selected */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 1Selected;
+			sourceTree = "<group>";
+		};
+		DDC959201CAE6B0F00A0B82D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDC959311CAE73C000A0B82D /* MusicPlayerTableViewCell.h */,
+				DDC959341CAE73F200A0B82D /* MusicPlayerTableViewCell.xib */,
+				DDC959321CAE73C000A0B82D /* MusicPlayerTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DDC959211CAE6C5200A0B82D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DDC959221CAE6C5D00A0B82D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +408,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD50B4371CAEB7AE00A469B4 /* MusicLibraryViewController.xib in Resources */,
 				DD4188121CAA96F600348EAA /* LaunchScreen.storyboard in Resources */,
-				DD41880F1CAA96F600348EAA /* Assets.xcassets in Resources */,
-				DD41880D1CAA96F600348EAA /* Main.storyboard in Resources */,
+				DD50B4321CAEB47B00A469B4 /* DiscoverViewController.xib in Resources */,
+				DDC959351CAE73F200A0B82D /* MusicPlayerTableViewCell.xib in Resources */,
+				DDC959141CAE551C00A0B82D /* MainViewController.xib in Resources */,
+				DD19F9F91CAFFA920028C257 /* TLNavLeftView.xib in Resources */,
+				DD19F97C1CAF4DB40028C257 /* Assets.xcassets in Resources */,
+				DD50B42D1CAEB45E00A469B4 /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +440,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD41880A1CAA96F600348EAA /* ViewController.m in Sources */,
+				DD19F9821CAF66640028C257 /* HomeTopUIView.m in Sources */,
+				DD50B42C1CAEB45E00A469B4 /* MyViewController.m in Sources */,
 				DD4188071CAA96F600348EAA /* AppDelegate.m in Sources */,
+				DD50B4311CAEB47B00A469B4 /* DiscoverViewController.m in Sources */,
+				DDC959331CAE73C000A0B82D /* MusicPlayerTableViewCell.m in Sources */,
+				DD50B4361CAEB7AE00A469B4 /* MusicLibraryViewController.m in Sources */,
 				DD4188041CAA96F600348EAA /* main.m in Sources */,
+				DD19F9F71CAFFA440028C257 /* TLNavLeftView.m in Sources */,
+				DDC9590F1CAE53F800A0B82D /* WelcomeViewController.m in Sources */,
+				DDC959131CAE551C00A0B82D /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +485,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DD41880B1CAA96F600348EAA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD41880C1CAA96F600348EAA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DD4188101CAA96F600348EAA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +582,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MusicHouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TL.MusicHouse;
@@ -427,6 +594,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MusicHouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TL.MusicHouse;
@@ -501,6 +669,7 @@
 				DD41882E1CAA96F600348EAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD41882F1CAA96F600348EAA /* Build configuration list for PBXNativeTarget "MusicHouseTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +678,7 @@
 				DD4188311CAA96F600348EAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD4188321CAA96F600348EAA /* Build configuration list for PBXNativeTarget "MusicHouseUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +687,7 @@
 				DD4188341CAA96F600348EAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

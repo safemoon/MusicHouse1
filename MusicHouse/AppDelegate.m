@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WelcomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    /*
+     if(是第一次启动)
+     创建welcomeVC，设置为根vc
+     else
+     创建mainVC，设置位根vc
+     */
+    
+//    int w =[UIScreen mainScreen].bounds.size.width;
+//    int h = [UIScreen mainScreen].bounds.size.height;
+    
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.rootViewController = [[WelcomeViewController alloc]init];
+    [self.window makeKeyAndVisible];
+  
+    
+//    textGithub
+    
+    
+    
+    
     return YES;
 }
 
